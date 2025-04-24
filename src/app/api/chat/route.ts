@@ -6,6 +6,7 @@ import OpenAI from 'openai';
 
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
+  baseURL: process.env.DEEPSEEK_API_BASE_URL, // <--- Add this line
   // baseURL: 'YOUR_DEEPSEEK_API_ENDPOINT_HERE',
 });
 
