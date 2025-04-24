@@ -5,7 +5,7 @@ import { auth } from '@/app/lib/firebase/config'; // Adjust path if needed
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { signOut } from 'firebase/auth';
 import { useRouter } from 'next/navigation';
-import Image from 'next/image';
+//import Image from 'next/image';
 // Optional: Import icons
 import { PaperAirplaneIcon, UserCircleIcon, CpuChipIcon, ArrowRightOnRectangleIcon } from '@heroicons/react/24/outline'; // Or solid
 
