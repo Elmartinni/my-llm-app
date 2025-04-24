@@ -10,8 +10,11 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
+    "@openrouter/ai-sdk-provider": "^0.4.5",
+    "ai": "^4.3.9",
     "firebase": "^11.6.0",
     "next": "15.3.1",
+    "openai": "^4.96.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-firebase-hooks": "^5.1.1"
@@ -20,6 +23,7 @@
     "@eslint/eslintrc": "^3",
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "@tailwindcss/postcss": "^4",
+    "@tailwindcss/typography": "^0.5.16",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
