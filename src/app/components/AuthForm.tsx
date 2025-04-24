@@ -23,7 +23,7 @@ const validateEmail = (email: string): boolean => {
 };
 
 export default function AuthForm() {
-  const [user, loading, _error] = useAuthState(auth);  // Hook to get auth state
+  const [user, loading,] = useAuthState(auth);  // Hook to get auth state
   // --- GET ROUTER INSTANCE ---
   const router = useRouter();
 
